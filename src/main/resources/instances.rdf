@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer948658">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>£1,200</ex:hasPrice>
+    <ex:hasDate>Late 19th century</ex:hasDate>
+    <ex:hasManufacturer>Martinelli of Manchester</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/948658/mahogany-stick-barometer-by-martinelli-of-manchester/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1048278">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Brass</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Edwardian era</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Bulkhead Marine Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1048278/edwardian-polished-brass-bulkhead-marine-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1014545">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Carved Wood</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Early 20th century</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Wall Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1014545/small-carved-wood-surround-wall-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1060488">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Steel</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Unknown</ex:hasDate>
+    <ex:hasManufacturer>London Manufacturer</ex:hasManufacturer>
+    <ex:hasStyle>Marine Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1060488/large-london-steel-case-marine-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer875426">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Commemorative Wheel Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/875426/victorian-wheel-barometer-commemorating-the-life-of-the-duke-of-wellington/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer810099">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Ebonised Wood</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Late 19th century</ex:hasDate>
+    <ex:hasManufacturer>Pillischer, London</ex:hasManufacturer>
+    <ex:hasStyle>Desk Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/810099/small-bourdon-aneroid-desk-barometer-on-ebonised-stand-for-pillischer-london/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer873798">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>£2,250</ex:hasPrice>
+    <ex:hasDate>George IV period</ex:hasDate>
+    <ex:hasManufacturer>Tarelli of Northampton</ex:hasManufacturer>
+    <ex:hasStyle>Clock Wheel Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/873798/george-iv-clock-wheel-barometer-for-tarelli-of-northampton-with-tagliabue-provenance/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1064839">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Unknown</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Art Deco period</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Banjo Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1064839/art-deco-banjo-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer894752">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Walnut and Chrome</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Art Deco period</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Barometer Thermometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/894752/art-deco-walnut-and-chrome-barometer-thermometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1025567">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Oak</ex:hasMaterial>
+    <ex:hasPrice>£825</ex:hasPrice>
+    <ex:hasDate>Circa 1920</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Barograph</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1025567/barograph-in-a-glazed-oak-case-from-circa-1920/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1049057">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Inlaid Wood</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Banjo Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1049057/superb-victorian-inlaid-banjo-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer947226">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Ebonised Wood</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>Dollond of London</ex:hasManufacturer>
+    <ex:hasStyle>Aneroid Wall Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/947226/victorian-ebonised-aneroid-wall-barometer-by-dollond-of-london/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer514415">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Various Materials</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Mercury Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/514415/victorian-mercury-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer973724">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Oak</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Diamond-Shaped</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/973724/victorian-oak-diamond-shaped-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer792798">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Ebonised Wood</ex:hasMaterial>
+    <ex:hasPrice>£950</ex:hasPrice>
+    <ex:hasDate>Late 19th century</ex:hasDate>
+    <ex:hasManufacturer>Ciresa of Milan</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/792798/ebonised-stick-barometer-by-ciresa-of-milan/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1064841">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Oak</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>Negretti and Zambra</ex:hasManufacturer>
+    <ex:hasStyle>Oak Cased</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1064841/negretti-and-zambra-oak-cased-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer900166">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>£2,250</ex:hasPrice>
+    <ex:hasDate>George III period</ex:hasDate>
+    <ex:hasManufacturer>Gould of Norwich</ex:hasManufacturer>
+    <ex:hasStyle>Wheel Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/900166/a-fine-george-iii-mahogany-wheel-barometer-by-gould-of-norwich/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer716473">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Wood</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Georgian era</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/716473/halifax-area-georgian-stick-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer793730">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Wood</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Unknown</ex:hasDate>
+    <ex:hasManufacturer>Bianchi, Ipswich</ex:hasManufacturer>
+    <ex:hasStyle>Wheel Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/793730/12-wheel-barometer-bianchi-ipswich/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer775144">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Various Materials</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>French Manufacturer</ex:hasManufacturer>
+    <ex:hasStyle>Atmos Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/775144/french-victorian-atmos-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1065002">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Oak</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Early 20th century</ex:hasDate>
+    <ex:hasManufacturer>C.P. Goerz</ex:hasManufacturer>
+    <ex:hasStyle>Barograph</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1065002/oak-barograph-by-c-p-goerz/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer900164">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>19th century</ex:hasDate>
+    <ex:hasManufacturer>Berge of London</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/900164/bow-fronted-stick-barometer-by-berge-of-london/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer871307">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Various Materials</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>George III era</ex:hasDate>
+    <ex:hasManufacturer>J.W. Newton</ex:hasManufacturer>
+    <ex:hasStyle>Wheel Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/871307/george-iii-wheel-barometer-by-the-globemakers-jw-newton-of-66-chancery-lane-london/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer958418">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Wood</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Unknown</ex:hasDate>
+    <ex:hasManufacturer>Stanley of Peterborough</ex:hasManufacturer>
+    <ex:hasStyle>Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/958418/stanley-of-peterborough-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer883862">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Early 20th century</ex:hasDate>
+    <ex:hasManufacturer>Negretti &amp; Zambra</ex:hasManufacturer>
+    <ex:hasStyle>Barograph</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/883862/nagretti-zambra-london-barograph/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer900171">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>£1,275</ex:hasPrice>
+    <ex:hasDate>Late 19th century</ex:hasDate>
+    <ex:hasManufacturer>Sandrino of Liverpool</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/900171/mahogany-stick-barometer-by-sandrino-of-liverpool/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1052510">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Parquetry</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>Unknown</ex:hasDate>
+    <ex:hasManufacturer>Ronchetti of Holborn</ex:hasManufacturer>
+    <ex:hasStyle>Parquetry Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1052510/ronchetti-of-holborn-parquetry-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1035754">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>George III period</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1035754/george-iii-mahogany-stick-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer1049058">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>£1,150</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>John Wardale of Liverpool</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/1049058/victorian-mahogany-stick-barometer-by-john-wardale-of-liverpool/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer529650">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Carved Walnut</ex:hasMaterial>
+    <ex:hasPrice>Price not listed</ex:hasPrice>
+    <ex:hasDate>19th century</ex:hasDate>
+    <ex:hasManufacturer>American Manufacturer</ex:hasManufacturer>
+    <ex:hasStyle>Wall Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/529650/19th-century-american-carved-walnut-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer948650">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>£950</ex:hasPrice>
+    <ex:hasDate>Victorian era</ex:hasDate>
+    <ex:hasManufacturer>Unknown</ex:hasManufacturer>
+    <ex:hasStyle>Aneroid Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/948650/victorian-aneroid-barometer/&gt;</ex:hasURL>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology#Barometer948653">
+    <rdf:type rdf:resource="http://example.org/ontology#Barometer"/>
+    <ex:hasMaterial>Mahogany</ex:hasMaterial>
+    <ex:hasPrice>£1,200</ex:hasPrice>
+    <ex:hasDate>Regency period</ex:hasDate>
+    <ex:hasManufacturer>Harris, London</ex:hasManufacturer>
+    <ex:hasStyle>Stick Barometer</ex:hasStyle>
+    <ex:hasURL>&lt;https://www.sellingantiques.co.uk/948653/a-fine-regency-period-mahogany-stick-barometer-by-harris-london/&gt;</ex:hasURL>
+  </rdf:Description>
+</rdf:RDF>

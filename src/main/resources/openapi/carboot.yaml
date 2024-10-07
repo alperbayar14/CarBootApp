@@ -1,0 +1,188 @@
+openapi: 3.0.3
+info:
+  title: Car Boot Sale API
+  description: >
+    This API facilitates the organization of and participation in car boot
+    sales, allowing users to register as either a seller or a buyer. Sellers,
+    upon selecting their role, are required to submit additional information
+    including their vehicle registration number and the car boot sale event they
+    wish to participate in. Admins can manage car boot sale events, including
+    creating, updating, and deleting events.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /auth/register:
+    post:
+      summary: >-
+        Register a new user as either a seller or a buyer. Sellers need to
+        provide additional information.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              oneOf:
+                - $ref: '#/components/schemas/BuyerRegistrationDTO'
+                - $ref: '#/components/schemas/SellerRegistrationDTO'
+      responses:
+        '201':
+          description: User successfully registered.
+        '400':
+          description: Bad request
+  /auth/login:
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginCredentialsDTO'
+      responses:
+        '200':
+          description: Login successful.
+        '401':
+          description: Unauthorized
+  /events:
+    get:
+      summary: Retrieve a list of all car boot sale events.
+      responses:
+        '200':
+          description: A list of car boot sale events.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/EventDTO'
+        '404':
+          description: Events not found
+    post:
+      summary: Admin creates a new car boot sale event.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EventCreationDTO'
+      responses:
+        '201':
+          description: Event created.
+        '400':
+          description: Bad request
+  /events/{eventId}:
+    put:
+      summary: Admin updates a car boot sale event.
+      parameters:
+        - in: path
+          name: eventId
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EventUpdateDTO'
+      responses:
+        '200':
+          description: Event updated.
+        '400':
+          description: Bad request
+        '404':
+          description: Event not found
+    delete:
+      summary: Admin deletes a car boot sale event.
+      parameters:
+        - in: path
+          name: eventId
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Event deleted.
+        '404':
+          description: Event not found
+components:
+  schemas:
+    BuyerRegistrationDTO:
+      type: object
+      properties:
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+        role:
+          type: string
+          enum:
+            - buyer
+      description: DTO for buyer registration information.
+    SellerRegistrationDTO:
+      type: object
+      properties:
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+        role:
+          type: string
+          enum:
+            - seller
+        vehicleRegistrationNumber:
+          type: string
+          description: Vehicle registration number of the seller.
+        selectedEventId:
+          type: string
+          description: >-
+            ID of the selected car boot sale event the seller wishes to
+            participate in.
+      description: >-
+        DTO for seller registration, including additional seller-specific
+        information.
+    LoginCredentialsDTO:
+      type: object
+      properties:
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+      description: DTO for user login credentials.
+    EventDTO:
+      type: object
+      properties:
+        eventId:
+          type: string
+        eventName:
+          type: string
+        eventDate:
+          type: string
+          format: date
+        location:
+          type: string
+      description: Basic DTO for event details.
+    EventCreationDTO:
+      allOf:
+        - $ref: '#/components/schemas/EventDTO'
+      required:
+        - eventName
+        - eventDate
+        - location
+      description: >-
+        DTO for creating a new event, extending the basic event DTO with
+        required fields.
+    EventUpdateDTO:
+      allOf:
+        - $ref: '#/components/schemas/EventDTO'
+      required:
+        - eventName
+        - eventDate
+        - location
+      description: >-
+        DTO for updating existing event information, extending the basic event
+        DTO.
